@@ -24,10 +24,16 @@ if 5 == 10 or 4 == 4:
 
 # 1 exam
 
+print(10 + 5)
+
 # 2 exam
+
+print((6 + 3) - (6 + 3))
 
 # 3 exam
 
+print(100 + 5 * 3)
+
 # 4 exam
 
-# 5 exam
+print(5 + 4 - 7 + 3)

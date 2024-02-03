@@ -45,10 +45,55 @@ car.clear()
 
 # 1 exam
 
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
 # 2 exam
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
 
 # 3 exam
 
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
+
 # 4 exam
 
+print(len(thisdict))
+
 # 5 exam
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+
+# 6 exam
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
+
+# 7 exam
+
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)

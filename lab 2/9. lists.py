@@ -39,16 +39,35 @@ print(len(fruits))
 
 # 1 exam
 
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
 # 2 exam
+
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
 
 # 3 exam
 
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+
 # 4 exam
+
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
 
 # 5 exam
 
+list1 = ["abc", 34, True, 40, "male"]
+
 # 6 exam
+
+mylist = ["apple", "banana", "cherry"]
+print(type(mylist))
 
 # 7 exam
 
-# 8 exam
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)

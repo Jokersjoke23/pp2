@@ -27,10 +27,23 @@ fruits.discard("banana")
 
 # 1 exam
 
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
 # 2 exam
+
+thisset = {"apple", "banana", "cherry", "apple"}
+
+print(thisset)
 
 # 3 exam
 
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+
+print(thisset)
+
 # 4 exam
 
-# 5 exam
+thisset = {"apple", "banana", "cherry", False, True, 0}
+
+print(thisset)
